@@ -82,7 +82,7 @@ Fui al repositorio del docente en GitHub y presioné el botón **Fork** ubicado
 en la esquina superior derecha. Esto creó una copia del repositorio en mi 
 cuenta personal de GitHub.
 
-![Fork](img/Pregunta1/FORK.png)
+![Fork](img/FORK.png)
 
 ---
 
@@ -98,7 +98,7 @@ cd Repaso
 Con esto descargué todo el contenido de mi fork en mi equipo local, 
 incluyendo el historial de commits y las ramas.
 
-![Clone](img/Pregunta1/CLONE.png)
+![Clone](img/CLONE.png)
 
 ---
 
@@ -117,7 +117,7 @@ origin  https://github.com/Kikessj710/Repaso.git (push)
 Esto confirma que el `origin` apunta a **mi fork** (`Kikessj710`), y no al 
 repositorio original del docente.
 
-![Remote](img/Pregunta1/REMOTE.png)
+![Remote](img/REMOTE.png)
 
 
 
