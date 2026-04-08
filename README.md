@@ -74,6 +74,51 @@ git pull origin main
 - Es equivalente a `git fetch` + `git merge` juntos
 ---
 
+##PRACTICA
+
+## ¿Cómo se realizó el fork?
+
+Fui al repositorio del docente en GitHub y presioné el botón **Fork** ubicado 
+en la esquina superior derecha. Esto creó una copia del repositorio en mi 
+cuenta personal de GitHub.
+
+![Fork](img/Pregunta1/FORK.png)
+
+---
+
+## ¿Cómo se realizó el clone del fork?
+
+Abrí la terminal y ejecuté los siguientes comandos:
+
+```bash
+git clone https://github.com/Kikessj710/Repaso.git
+cd Repaso
+```
+
+Con esto descargué todo el contenido de mi fork en mi equipo local, 
+incluyendo el historial de commits y las ramas.
+
+![Clone](img/Pregunta1/CLONE.png)
+
+---
+
+
+# ¿Cómo se verificó que se trabajaba sobre el fork y no sobre el repositorio original?
+
+Ejecuté el comando:
+
+```bash
+git remote -v
+```
+
+Y la salida mostró: origin  https://github.com/Kikessj710/Repaso.git (fetch)
+origin  https://github.com/Kikessj710/Repaso.git (push)
+
+Esto confirma que el `origin` apunta a **mi fork** (`Kikessj710`), y no al 
+repositorio original del docente.
+
+![Remote](img/Pregunta1/REMOTE.png)
+
 
 
 ## Pregunta 2 (1 punto)
