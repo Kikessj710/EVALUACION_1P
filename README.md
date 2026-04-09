@@ -147,6 +147,14 @@ repositorio original del docente.
 
 <!-- Escribe aquí tu explicación y evidencia para la Pregunta 2 -->
 
+## 📝 Respuesta: Pregunta 2
+
+**Función de .gitignore:** Es un archivo que define patrones de nombres de archivos y carpetas que Git debe ignorar. Es fundamental para evitar subir archivos basura, temporales o configuraciones locales al repositorio.
+
+**Evidencia:** Se configuró el archivo para ignorar `.log`, `temp/` y contenidos específicos en `doc/`. Como se ve en la imagen, los archivos de prueba dentro de `doc/` no son rastreados.
+
+![GITIGNORE](img/STATUS.png)
+
 ---
 
 ## Pregunta 3 (2 puntos)
