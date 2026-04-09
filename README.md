@@ -119,6 +119,11 @@ repositorio original del docente.
 
 ![Remote](img/REMOTE.png)
 
+##COMMIT 
+
+![COMMIT](img/commit.png)
+
+
 
 
 ## Pregunta 2 (1 punto)
