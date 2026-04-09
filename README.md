@@ -185,6 +185,34 @@ repositorio original del docente.
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 3 -->
 
+## 📝 Respuesta: Pregunta 3 - Metodología Git Flow
+
+### 3.1 Comandos exactos y Proceso seguido
+
+Para el desarrollo de la funcionalidad "ingresar-encabezado", se aplicó el flujo de trabajo estandarizado de Git Flow siguiendo estos pasos:
+
+1. **Inicialización del entorno:**
+   Se ejecutó `git flow init -d` para establecer la estructura de ramas. Este paso es fundamental para separar el código estable (`main`) del código en construcción (`develop`).
+   * **Evidencia:** ![INIT](img/init.png)
+
+2. **Creación de la rama Feature:**
+   Se utilizó `git flow feature start ingresar-encabezado`. El propósito de este comando es crear una rama aislada para desarrollar la nueva funcionalidad sin afectar el trabajo de otros desarrolladores.
+   * **Evidencia:** ![START](img/start.png)
+
+3. **Desarrollo y Commit:**
+   Se editaron los datos personales en el encabezado del README y se registró el cambio con un commit descriptivo.
+
+4. **Cierre de la funcionalidad:**
+   Finalmente, se ejecutó `git flow feature finish ingresar-encabezado`. Este comando realiza tres acciones automáticas: une la rama feature con `develop`, elimina la rama de la funcionalidad y nos sitúa nuevamente en la rama de desarrollo.
+   * **Evidencia:** ![FINISH](img/finish.png)
+
+### 3.2 Reflexión sobre las ventajas de Git Flow
+
+Aplicar Git Flow en proyectos (especialmente en contextos colaborativos) ofrece ventajas críticas:
+* **Orden Jerárquico:** Mantiene una separación clara entre lo que está en producción y lo que se está probando.
+* **Trabajo Paralelo:** Permite que múltiples programadores trabajen en distintas funciones (features) simultáneamente sin generar conflictos constantes en la rama principal.
+* **Trazabilidad:** Facilita la creación de versiones (releases) y la corrección de errores urgentes (hotfixes) de manera organizada, asegurando que el historial del proyecto sea fácil de auditar y entender.
+
 ---
 
 ## Pregunta 4 (2 puntos)
