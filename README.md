@@ -243,6 +243,19 @@ Aplicar Git Flow en proyectos (especialmente en contextos colaborativos) ofrece 
 
 <!-- Escribe aquí tu respuesta completa a la Pregunta 4 -->
 
+## ¿Qué es un Pull Request?
+
+Un **Pull Request (PR)** es una propuesta formal para integrar cambios de una 
+rama (como `develop`) a otra (como `main`). Su función es permitir que otros 
+colaboradores revisen, discutan y aprueben el código antes de que sea parte 
+del proyecto principal.
+
+Importancia de la revisión: Sirve como filtro de calidad para evitar introducir errores (bugs), asegurar que el código sea legible y confirmar que cumple con los requisitos del proyecto antes de afectar la rama estable.
+
+Validaciones comunes: Se revisa la lógica del código, el cumplimiento de estándares de estilo, la presencia de comentarios útiles, y que no existan vulnerabilidades de seguridad o conflictos de mezcla.
+
+
+
 ---
 
 ## Pregunta 5 (2 puntos)
